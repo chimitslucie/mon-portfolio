@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Kasa",
+    "type": "Site d'immobilier",
+    "image": "/Img/Projects/kasa.webp",
+    "alt": "Kasa",
+    "tags": ["html", "css", "reactjs", "sass"],
+    "linkGithub": "https://github.com/chimitslucie/projet-8-kasa-OC",
+    "description": "Kasa est une application de location immobilière qui souhaitait opérer une refonte totale de son site. J'ai développé l’ensemble de l’application, en gérant l'intégration des différents composants et les routes, via react-router, en respectant les maquettes proposées."
+  },
+  {
+    "id": 2,
+    "title": "Sophie Bluel",
+    "type": "Portofolio d'une architect d'intérieur",
+    "image": "/Img/Projects/sophieBluel.webp",
+    "alt": "Sophie Bluel",
+    "tags": ["css", "javascript"],
+    "linkGithub": "https://github.com/chimitslucie/Projet-6-Sophie-Bluel-OC",
+    "description": "Sophie Bluel est une architecte d'intérieur. J'ai travaillé à la conception de son site portfolio en gérant la connexion et la déconnexion de l'administrateur, l'ajout de nouveaux projets et la suppression de projets."
+  },
+  {
+    "id": 3,
+    "title": "Oh my food",
+    "type": "Site de restauration",
+    "image": "/Img/Projects/ohMyFood.webp",
+    "tags": ["html", "css", "sass"],
+    "linkGithub": "https://github.com/chimitslucie/Oh-my-food",
+    "description": "Ohmyfood est une jeune startup qui voudrait s'imposer sur le marché de la restauration. J'ai développé un site responsive en mobile-first en respectant les maquettes et en ajoutant des animations CSS."
+  },
+  {
+    "id": 4,
+    "title": "Argent Bank",
+    "type": "Site bancaire",
+    "image": "/Img/Projects/argentBank.webp",
+    "alt": "Argent Bank",
+    "tags": ["reactjs", "redux"],
+    "linkGithub": "https://github.com/chimitslucie/Projet_11_OC_ArgentBank",
+    "description": "Argent Bank est une nouvelle banque en ligne qui souhaitait percer dans le secteur bancaire. J'ai travaillé sur la mise en place du tableau de bord et le système d'authentification des utilisateurs ainsi que sur la conception de nouvelles routes API pour la future gestion des comptes."
+  }
+]

@@ -1,0 +1,26 @@
+.tag {
+    border: 1px solid $pink;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 3px 15px;
+    margin-right: 10px;
+
+    @media (max-width: 530px) {
+        margin-right: 5px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+
+        @media (max-width: 394px) {
+            margin-top: 5px;
+        }
+    }
+
+    &Text {
+        font-size: 20px;
+        color: $dark;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+}

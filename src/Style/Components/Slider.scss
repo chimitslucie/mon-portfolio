@@ -1,0 +1,26 @@
+.slick-dots {
+    position: static;
+    margin-top: 30px;
+
+    & li button {
+        color: rgb(192, 91, 140, 15%);
+    }
+
+    & li button::before {
+        color: $pink;
+        font-size: 18px;
+    }
+
+    & li.slick-active button::before {
+        color: $pink;
+        opacity: 1;
+    }
+}
+
+.slider {
+    margin-top: 90px;
+
+    @media (max-width: 935px) {
+        margin-top: 50px;
+    }
+}
