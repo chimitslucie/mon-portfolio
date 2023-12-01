@@ -1,0 +1,177 @@
+.nav {
+    display: flex;
+    margin: 20px 25px 0 25px;
+    justify-content: space-between;
+    align-items: center;
+
+    &LogoLink {
+        font-family: 'Square Peg', cursive;
+        font-size: 60px;
+        color: $dark;
+
+        @media (max-width: 420px) {
+            font-size: 50px;
+        }
+    }
+
+    &Links {
+        display: flex;
+
+        @media (max-width: 840px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            right: -100vw;
+            top: 10px;
+            padding: 10px;
+            background-color: white;
+            height: 265px;
+            visibility: hidden;
+            transition: all .8s ease-out;
+            width: 0;
+            border-radius: 30px;
+            filter: drop-shadow(0 0 4px $pink);
+        }
+    }
+
+    &Item {
+        margin-right: 40px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            &::after {
+                content: "";
+                display: block;
+                height: 3px;
+                width: 60px;
+                background: $pink;
+                animation-duration: 0.5s;
+                animation-name: slidein;
+            }
+        }
+
+        @media (max-width: 840px) {
+            margin-right: 0;
+        }
+    }
+
+    &Link {
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+        color: $dark;
+
+        @media (max-width: 840px) {
+            display: block;
+            padding: 5px;
+        }
+    }
+
+    &Burger {
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        color: inherit;
+        display: none;
+
+        @media (max-width: 840px) {
+            display: block;
+            position: fixed;
+            top: 40px;
+            right: 30px;
+        }
+
+        @media (max-width: 420px) {
+            top: 30px;
+        }
+
+        &:hover {
+            @media (max-width: 840px) {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.showNav .navLinks {
+    right: 10px;
+    width: 330px;
+    visibility: visible;
+
+    @media (max-width: 420px) {
+        width: 250px;
+    }
+}
+
+.burgerBar,
+.burgerBar::before,
+.burgerBar::after {
+    @media (max-width: 840px) {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background-color: black;
+        transition: all .5s ease-in-out;
+    }
+}
+
+.burgerBar::before,
+.burgerBar::after {
+    @media (max-width: 840px) {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+}
+
+.burgerBar::before {
+    @media (max-width: 840px) {
+        transform: translateY(-12px);
+    }
+}
+
+.burgerBar::after {
+    @media (max-width: 840px) {
+        transform: translateY(12px);
+    }
+}
+
+.showNav .burgerBar::before {
+    @media (max-width: 840px) {
+        transform: rotate(45deg);
+    }
+}
+
+.showNav .burgerBar {
+    @media (max-width: 840px) {
+        width: 0;
+        background: transparent;
+    }
+}
+
+.showNav .burgerBar::after {
+    @media (max-width: 840px) {
+        transform: rotate(-45deg);
+    }
+}
+
+
+
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 0;
+    }
+
+    to {
+        margin-right: 0%;
+        width: 60px;
+    }
+}

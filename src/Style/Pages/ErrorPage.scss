@@ -1,0 +1,48 @@
+.error {
+    overflow: hidden;
+
+    &Content {
+        text-align: center;
+        color: $pink;
+        margin: 200px auto 250px auto;
+
+        @media (max-width: 745px) {
+            margin-bottom: 150px;
+        }
+
+        @media (max-width: 530px) {
+            margin-top: 150px;
+        }
+    }
+
+    &Title {
+        font-family: 'Crimson Text', serif;
+        font-size: 65px;
+        font-weight: 700;
+        margin-bottom: 50px;
+
+        @media (max-width: 400px) {
+            font-size: 45px;
+        }
+    }
+
+    &Text {
+        font-size: 30px;
+        margin-bottom: 100px;
+
+        @media (max-width: 400px) {
+            font-size: 20px;
+        }
+    }
+
+    &Link {
+        font-size: 20px;
+        color: $pink;
+        font-weight: 300;
+        text-decoration: underline;
+
+        @media (max-width: 400px) {
+            font-size: 15px;
+        }
+    }
+}
