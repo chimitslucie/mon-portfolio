@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
-// import ContactPage from "./Pages/ContactPage";
+import ContactPage from "./Pages/ContactPage";
 import HomePage from "./Pages/HomePage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import SkillsPage from "./Pages/SkillsPage";
@@ -27,10 +27,10 @@ const router = createBrowserRouter([
     path: "/Projects",
     element: <ProjectsPage />,
   },
-  // {
-  //   path: "/Contact",
-  //   element: <ContactPage />,
-  // },
+  {
+    path: "/Contact",
+    element: <ContactPage />,
+  },
   {
     path: "*",
     element: <ErrorPage />,
