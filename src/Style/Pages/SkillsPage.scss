@@ -1,0 +1,48 @@
+.skills {
+    overflow: hidden;
+
+    &Content {
+        margin: 30px 0 40px 0;
+
+        &Progress {
+            margin: 30px 60px 0 60px;
+
+            @media (max-width: 935px) {
+                margin: 30px 0 0 0;
+            }
+        }
+    }
+
+    & .footer {
+        padding-bottom: 15px;
+    }
+}
+
+
+.html {
+    width: 95%;
+
+    @media (max-width: 530px) {
+        width: 93%;
+    }
+}
+
+.css {
+    width: 92%;
+
+    @media (max-width: 530px) {
+        width: 90%;
+    }
+}
+
+.sass {
+    width: 75%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+.react {
+    width: 40%;
+}
