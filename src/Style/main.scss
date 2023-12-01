@@ -1,0 +1,24 @@
+@import "./Utils/Color.scss";
+@import "./Utils/Font.scss";
+@import "./Utils/Reset.scss";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import "./Components/Footer.scss";
+@import "./Components/Form.scss";
+@import "./Components/Header.scss";
+@import "./Components/Navbar.scss";
+@import "./Components/Skills.scss";
+@import "./Components/Slider.scss";
+@import "./Components/SliderCard.scss";
+@import "./Components/Tag.scss";
+@import "./Components/Text.scss";
+@import "./Components/Title.scss";
+
+@import "./Pages/AboutPage.scss";
+@import "./Pages/ContactPage.scss";
+@import "./Pages/ErrorPage.scss";
+@import "./Pages/HomePage.scss";
+@import "./Pages/ProjectsPage.scss";
+@import "./Pages/SkillsPage.scss";
