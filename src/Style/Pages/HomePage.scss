@@ -1,0 +1,46 @@
+.home {
+    background-image: url('../../Assets/Img/homePage/background-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    overflow: hidden;
+    height: 100vh;
+
+    @media (max-width: 1250px) {
+        background-position: center;
+    }
+
+    & .navLogoLink {
+        color: $white;
+    }
+
+    & .navLink {
+        color: $white;
+    }
+
+    & .burgerBar,
+    .burgerBar::before,
+    .burgerBar::after {
+        @media (max-width: 840px) {
+            background-color: $white;
+        }
+    }
+
+    & .navLinks {
+        background: black;
+    }
+
+    & .footer {
+        text-align: center;
+        position: absolute;
+        bottom: 30px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 275px;
+    }
+
+    & .footer-text {
+        color: $white;
+    }
+}
