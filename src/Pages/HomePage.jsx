@@ -7,7 +7,9 @@ function HomePage() {
     return (
         <div className="home">
             <Navbar />
-            <Header text="Qui ideo nefariis est haec ideo quod autem vocibus insaniam haec insaniam conatibus heiulans longe vocibus est longe visus: insaniam." />
+            <Header text="Bienvenue sur mon site ! Je suis une développeuse front-end junior passionnée, 
+            fraîchement formée et spécialisée dans React.js. Explorez mes projets innovants et suivez ma progression 
+            dans le monde captivant du développement web." />
             <Footer />
         </div>
     )

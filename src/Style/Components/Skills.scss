@@ -48,5 +48,19 @@
         position: absolute;
         left: 0;
         top: 0;
+        transition: 0.4s ease-in-out;
+        transition-property: width, background-color;
+        animation: progressAnimation 1.5s;
+    }
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 5%;
+        background-color: $pink;
+    }
+
+    100% {
+        background: linear-gradient(to right, $pink 80%, #7C2852);
     }
 }
