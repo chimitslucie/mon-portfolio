@@ -12,8 +12,17 @@ function AboutPage() {
                 <Title title="mon profil ?" subtitle="l'essentiel à savoir." />
                 <div className='aboutContent'>
                     <div className='aboutContentText'>
-                        <Text text="Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte." />
-                        <Text text="Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte." />
+                        <Text
+                            text="Je suis Lucie Chimits, j'ai 23 ans. Nouvellement développeuse front-end, 
+                        après quelques années dans le monde de l'esthétique qui m'a permis d'avoir une première expérience professionnelle 
+                        et avoir un contact avec la clientèle."
+                        />
+                        <Text
+                            text="Ayant commencé l'intégration en autodidacte afin de découvrir ce domaine et de voir si cela pourrait me plaire. 
+                            Pour me permettre de me reconvertir, j'ai décidé de faire la formation Openclassrooms. 
+                            Cette formation m'a permis d'acquérir des connaissances sur les différents langages d'intégrations. Pour la suite de mon parcours, 
+                            j'ai décidé de me spécialiser en ReactJS."
+                        />
                     </div>
                     <div className='aboutContentPhoto'>
                         <img className='profilPicture' src={ProfilPicture} alt='profil' />

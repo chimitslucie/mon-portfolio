@@ -12,14 +12,22 @@ function ContactPage() {
         <div className="contact">
             <Navbar />
             <div className="container">
-                <Title title="me contacter ?" subtitle="n'hésitez pas." className="contactTitle" />
+                <Title
+                    title="me contacter ?"
+                    subtitle="n'hésitez pas."
+                    className="contactTitle"
+                />
                 <div className="contactContent">
                     <div className="contactContentForm">
                         <Form />
                     </div>
                     <hr className="contactContentLine"></hr>
                     <div className="contactContentText">
-                        <Text text="Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum" />
+                        <Text
+                            text="Si vous souhaitez me contacter, vous êtes au bon endroit. Une offre d'emploi ? 
+                            Une question sur mon travail et/ou mes compétences ? N'hésitez pas à m'envoyer un message via le formulaire et à me suivre via mes réseaux. 
+                            Je ferais de mon mieux pour vous répondre rapidement."
+                        />
                         <div className="contactLinks">
                             <Link to="https://github.com/chimitslucie" className="contactLink">
                                 <FontAwesomeIcon className="contactIcon" icon={faGithub} />
