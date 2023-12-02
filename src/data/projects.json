@@ -5,7 +5,7 @@
     "type": "Site d'immobilier",
     "image": "/mon-portfolio/projects/kasa.webp",
     "alt": "Kasa",
-    "tags": ["html", "css", "reactjs", "sass"],
+    "tags": ["reactjs", "sass"],
     "linkGithub": "https://github.com/chimitslucie/projet-8-kasa-OC",
     "description": "Kasa est une application de location immobilière qui souhaitait opérer une refonte totale de son site. J'ai développé l’ensemble de l’application, en gérant l'intégration des différents composants et les routes, via react-router, en respectant les maquettes proposées."
   },
