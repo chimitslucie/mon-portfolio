@@ -19,22 +19,22 @@ function Navbar() {
             </div>
             <ul className="navLinks">
                 <li className="navItem">
-                    <Link to={"/About"} className="navLink">
+                    <Link to={"/mon-portfolio/about"} className="navLink">
                         A propos
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/Skills"} className="navLink">
+                    <Link to={"/mon-portfolio/skills"} className="navLink">
                         Compétences
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/Projects"} className="navLink">
+                    <Link to={"/mon-portfolio/projects"} className="navLink">
                         Projets
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/Contact"} className="navLink">
+                    <Link to={"/mon-portfolio/contact"} className="navLink">
                         Contact
                     </Link>
                 </li>
