@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
 import HomePage from "./Pages/HomePage";
@@ -10,37 +10,20 @@ import SkillsPage from "./Pages/SkillsPage";
 import ErrorPage from "./Pages/ErrorPage";
 import "./Style/main.scss";
 
-const router = createBrowserRouter([
-  {
-    path: "/mon-portfolio",
-    element: <HomePage />,
-  },
-  {
-    path: "/mon-portfolio/about",
-    element: <AboutPage />,
-  },
-  {
-    path: "/mon-portfolio/skills",
-    element: <SkillsPage />,
-  },
-  {
-    path: "/mon-portfolio/projects",
-    element: <ProjectsPage />,
-  },
-  {
-    path: "/mon-portfolio/contact",
-    element: <ContactPage />,
-  },
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
-]);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/about" element={<AboutPage />} />
+        <Route exact path="/skills" element={<SkillsPage />} />
+        <Route exact path="/projects" element={<ProjectsPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </HashRouter>
+    {/* <RouterProvider router={router} /> */}
   </React.StrictMode>
 );
 

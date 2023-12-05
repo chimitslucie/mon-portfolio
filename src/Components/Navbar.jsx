@@ -13,28 +13,28 @@ function Navbar() {
     return (
         <nav className={`nav ${showLinks ? "showNav" : "hideNav"}`}>
             <div className="navLogo">
-                <Link to={"/mon-portfolio"} className="navLogoLink">
+                <Link to={"/"} className="navLogoLink">
                     Lucie Chimits
                 </Link>
             </div>
             <ul className="navLinks">
                 <li className="navItem">
-                    <Link to={"/mon-portfolio/about"} className="navLink">
+                    <Link to={"/about"} className="navLink">
                         A propos
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/mon-portfolio/skills"} className="navLink">
+                    <Link to={"/skills"} className="navLink">
                         Compétences
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/mon-portfolio/projects"} className="navLink">
+                    <Link to={"/projects"} className="navLink">
                         Projets
                     </Link>
                 </li>
                 <li className="navItem">
-                    <Link to={"/mon-portfolio/contact"} className="navLink">
+                    <Link to={"/contact"} className="navLink">
                         Contact
                     </Link>
                 </li>
