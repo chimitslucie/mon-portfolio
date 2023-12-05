@@ -12,7 +12,7 @@ import "./Style/main.scss";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/mon-portfolio",
     element: <HomePage />,
   },
   {

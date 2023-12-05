@@ -11,7 +11,7 @@ function ErrorPage() {
                 <div className="errorContent">
                     <h1 className="errorTitle">404 Error</h1>
                     <p className="errorText">Oups! Une erreur est survenue.</p>
-                    <Link to="/">
+                    <Link to="/mon-portfolio">
                         <p className="errorLink">Retourner à la page d'accueil</p>
                     </Link>
                 </div>

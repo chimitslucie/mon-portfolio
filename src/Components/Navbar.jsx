@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <nav className={`nav ${showLinks ? "showNav" : "hideNav"}`}>
             <div className="navLogo">
-                <Link to={"/"} className="navLogoLink">
+                <Link to={"/mon-portfolio"} className="navLogoLink">
                     Lucie Chimits
                 </Link>
             </div>
